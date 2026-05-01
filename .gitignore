@@ -1,8 +1,11 @@
 __pycache__/
 *.pyc
 checkpoints/
-tokenizer/
-tokenizer.json
+tokenizer/*
+!tokenizer/train_tokenizer.py
+!tokenizer/tokenizer_utils.py
+!tokenizer/__init__.py
+tokenizer/tokenizer.json
 data/processed/
 venv/
 .DS_Store
