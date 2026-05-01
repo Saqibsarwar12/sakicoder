@@ -28,6 +28,13 @@ python scripts/smoke_test.py
 
 This command will also write a sample generation output to `outputs/generation_sample.txt`.
 
+## Continuous integration
+
+GitHub Actions runs lightweight verification on every push and pull request.
+The CI pipeline installs dependencies, runs the smoke test, runs `pytest -q`,
+and validates export imports with `pytest tests/test_export_imports.py -q`.
+It also runs a short CPU benchmark after smoke test completion.
+
 ## Training stages
 
 Stage 1: tokenizer training
