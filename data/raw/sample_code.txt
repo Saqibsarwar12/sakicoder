@@ -1,0 +1,27 @@
+# Python example
+<|user|>
+Create a Python function that adds two numbers.
+<|assistant|>
+def add(a, b):
+    return a + b
+<|eos|>
+
+# JavaScript example
+<|user|>
+Create a JS function that logs "hello".
+<|assistant|>
+function hello() {
+  console.log('hello')
+}
+<|eos|>
+
+# HTML example
+<|user|>
+Create a minimal HTML page with a script.
+<|assistant|>
+<!doctype html>
+<html>
+<head><title>Sample</title></head>
+<body><script>console.log('ok')</script></body>
+</html>
+<|eos|>

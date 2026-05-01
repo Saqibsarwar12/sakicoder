@@ -1,0 +1,2 @@
+{"type":"instruction","language":"bash","prompt":"Explain this command: find . -name '*.py' -type f | xargs grep -n 'TODO'","response":"It searches recursively for Python files and then greps each file for lines containing TODO, printing line numbers. Use xargs -0 with find -print0 for safer handling of spaces in paths."}
+{"type":"instruction","language":"bash","prompt":"Write a bash script snippet to stop if any command fails and print each command before execution.","response":"#!/usr/bin/env bash\nset -euo pipefail\nset -x\n\n# commands here\n"}

@@ -1,0 +1,1 @@
+{"run_id": "run-20260501-141417", "config": "configs/tiny.json", "dataset_path": "data/processed/instruct.npy", "tokenizer_path": "tokenizer/tokenizer.json", "checkpoint_path": "checkpoints/experiment-test/latest.pt", "steps": 20, "loss": 0.0, "eval_path": "outputs/eval_results.md", "notes": "mode=instruct", "created_at": "2026-05-01T14:14:17.910953+00:00"}

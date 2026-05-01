@@ -1,0 +1,2 @@
+{"role":"user","content":"Fix this error:\nModuleNotFoundError: No module named 'fastapi'"}
+{"role":"assistant","content":"The error means FastAPI is not installed.\nFix:\npip install fastapi uvicorn\nAdd to requirements.txt: fastapi\n"}

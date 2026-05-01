@@ -1,0 +1,2 @@
+{"instruction":"List files in project root","example":"list_files('.')"}
+{"instruction":"Read README.md","example":"read_file('README.md')"}

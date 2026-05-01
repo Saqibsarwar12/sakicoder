@@ -1,0 +1,9 @@
+{
+  "n_layer": 12,
+  "n_head": 12,
+  "n_embd": 768,
+  "block_size": 2048,
+  "dropout": 0.1,
+  "batch_size": 16,
+  "learning_rate": 2e-4
+}

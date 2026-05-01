@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+checkpoints/
+tokenizer/
+tokenizer.json
+data/processed/
+venv/
+*.pt
+.DS_Store
+
+# Additional ignores for generated artifacts and caches
+.pytest_cache/
+outputs/
+*.npy
+*.npz
+*.log
+logs/

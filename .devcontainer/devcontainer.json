@@ -1,0 +1,8 @@
+{
+  "name": "SakiCoder Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:1": {}
+  },
+  "postCreateCommand": "pip install -r requirements.txt"
+}
