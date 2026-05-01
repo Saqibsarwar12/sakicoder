@@ -2,8 +2,9 @@
 
 SakiCoder is a from-scratch PyTorch Transformer project focused on coding and instruction-following. It provides a minimal, trainable GPT-style model built from first principles so you can train and extend it locally or in Colab.
 
-Author:
-Developed by Saqib Sarwar
+## Author
+
+Developed by Saqib Sarwar  
 Solo developer from Srinagar, J&K, India
 
 Key points:

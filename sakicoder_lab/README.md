@@ -2,8 +2,9 @@
 
 This package contains the research and data governance helpers for SakiCoder.
 
-Author attribution for the parent project:
-Developed by Saqib Sarwar
+## Author
+
+Developed by Saqib Sarwar  
 Solo developer from Srinagar, J&K, India
 
 It is intended to support a safe MCP-ready workflow for future data collection, validation, experiment logging, and dataset governance. It does not execute remote code, scrape arbitrary content, or bypass license checks.

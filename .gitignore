@@ -5,7 +5,6 @@ tokenizer/
 tokenizer.json
 data/processed/
 venv/
-*.pt
 .DS_Store
 
 # Additional ignores for generated artifacts and caches
@@ -15,3 +14,8 @@ outputs/
 *.npz
 *.log
 logs/
+exports/
+*.onnx
+*.pth
+*.pth.tar
+*.pt
