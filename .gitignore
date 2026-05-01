@@ -7,6 +7,8 @@ tokenizer/*
 !tokenizer/__init__.py
 tokenizer/tokenizer.json
 data/processed/
+data/colab_package/*
+!data/colab_package/.gitkeep
 venv/
 .DS_Store
 

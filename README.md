@@ -35,6 +35,21 @@ The CI pipeline installs dependencies, runs the smoke test, runs `pytest -q`,
 and validates export imports with `pytest tests/test_export_imports.py -q`.
 It also runs a short CPU benchmark after smoke test completion.
 
+## Dataset preparation for Colab training
+
+Build a safe coding dataset pipeline before long Colab GPU runs:
+
+```bash
+python scripts/collect_coding_sources.py
+python scripts/normalize_code_dataset.py
+python scripts/deduplicate_dataset.py
+python scripts/package_colab_dataset.py
+```
+
+The pipeline is safe-by-default: it does not scrape random repositories, skips
+unknown/blocked licenses, filters low-quality/minified/binary-looking content,
+and excludes examples with secrets or personal data.
+
 ## Training stages
 
 Stage 1: tokenizer training
@@ -75,4 +90,3 @@ python scripts/filter_dataset.py --input data/instruction/sakicoder_instructions
 python scripts/make_dataset_card.py
 python scripts/run_experiment.py --config configs/tiny.json --tokenizer tokenizer/tokenizer.json --data_dir data/processed --out_dir checkpoints/experiment-test --max_steps 20 --mode instruct
 ```
-# sakicoder
